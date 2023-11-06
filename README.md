@@ -109,7 +109,7 @@ En particular, en esta entrega se solicita:
 GitHub*.  
 
 Es necesario que el proyecto Java sea creado como un proyecto “Maven” para poder añadir
-algunas dependencias. Se recomienda la utilización de la dependencia de [**Lombok**](https://projectlombok.org/)para
+algunas dependencias. Se recomienda la utilización de la dependencia de [**Lombok**](https://projectlombok.org/) para
 facilitar la tarea repetitiva de generación de Setters y Getters de las clases.  
 
   
