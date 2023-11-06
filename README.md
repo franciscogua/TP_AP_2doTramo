@@ -2,7 +2,7 @@
 
 **Desarrollador Java intermedio**
   
-##Trabajo Práctico Integrador: Sistema de Reporte de Incidentes
+## Trabajo Práctico Integrador: Sistema de Reporte de Incidentes
 
   
 **Contexto general**
@@ -97,7 +97,7 @@ mostrando la solución generada y justificando las decisiones tomadas.
 <a name="br3"></a> 
 
   
-##Entrega 1  
+### Entrega 1  
 
 En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución
 al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
@@ -113,7 +113,7 @@ algunas dependencias. Se recomienda la utilización de la dependencia de [**Lomb
 facilitar la tarea repetitiva de generación de Setters y Getters de las clases.  
 
   
-##Entrega 2
+### Entrega 2
   
 En esta segunda iteración nos encargaremos de mapear, mediante anotaciones JPA, nuestras
 clases implementadas para poder persistir el modelo en una Base de Datos Relacional.  
