@@ -5,7 +5,7 @@
 ## Trabajo Práctico Integrador: Sistema de Reporte de Incidentes
 
   
-**Contexto general**
+### Contexto general
   
 Una importante empresa de soporte operativo solicita el diseño y desarrollo de un sistema
 que le permita la generación y seguimiento de los incidentes que se presentan.  
@@ -26,7 +26,7 @@ Finalmente, la mesa de ayuda es responsable de atender las llamadas e ingresar a
 incidentes reportados.  
 
   
-**Ciclo de vida de un incidente**  
+### Ciclo de vida de un incidente 
   
 Cuando un cliente llama, la mesa de ayuda le solicita los datos para identificarlo (razón social,
 CUIT) y los ingresa en el sistema para que el mismo le muestre los servicios que el cliente
@@ -50,7 +50,7 @@ las consideraciones que crea necesarias. Cuando esto ocurra, el sistema debe env
 al cliente informándole que su incidente ya está solucionado.  
 
   
-**Otros requerimientos**
+### Otros requerimientos
   
 ● El sistema debe permitir al área de RRHH emitir diariamente reportes con los
 incidentes asignados a cada técnico y el estado de los mismos.  
@@ -71,7 +71,7 @@ problemas de un mismo servicio. Dichos problemas deben estar relacionados.
   ○ Quién fue el técnico que más rápido resolvió los incidentes.  
   
   
-**Consideraciones**
+### Consideraciones
   
 ● Cada tipo de problema particular puede ser solucionado por una o varias
 especialidades.  
@@ -85,7 +85,7 @@ Email o WhatsApp. No están definidas las bibliotecas que se utilizarán para re
 estas notificaciones.  
   
   
-**Metodología**
+### Metodología
   
 Se propone una metodología de trabajo **iterativa** e **incremental**. Para esto, el TP se divide en
 tres entregas, las cuales se realizarán a través del envío del link al repositorio de trabajo por
@@ -128,9 +128,9 @@ sean persistidas mediante el ORM Hibernate.
 
 2. Repositorios/Servicios que den solución a los requerimientos planteados:  
 
-a. Quién fue el técnico con más incidentes resueltos en los últimos N días.  
+    - Quién fue el técnico con más incidentes resueltos en los últimos N días.  
 
-b. Quién fue el técnico con más incidentes resueltos de una determinada
-especialidad en los últimos N días.  
+    - Quién fue el técnico con más incidentes resueltos de una determinada
+especialidad en los últimos N días.
 
-c. Quién fue el técnico que más rápido resolvió los incidentes.  
+    - Quién fue el técnico que más rápido resolvió los incidentes.  
