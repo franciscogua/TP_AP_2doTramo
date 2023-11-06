@@ -103,13 +103,13 @@ En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos,
 al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
 En particular, en esta entrega se solicita:  
 
-1. Modelo de datos (DER físico) que brinde solución al dominio.  
+1. *Modelo de datos (DER físico) que brinde solución al dominio*.  
 
-2. Código con modelado de clases. El código debe estar subido a un repositorio de
-GitHub.  
+2. *Código con modelado de clases. El código debe estar subido a un repositorio de
+GitHub*.  
 
 Es necesario que el proyecto Java sea creado como un proyecto “Maven” para poder añadir
-algunas dependencias. Se recomienda la utilización de la dependencia de [**Lombok**](https://projectlombok.org/)[** ](https://projectlombok.org/)para
+algunas dependencias. Se recomienda la utilización de la dependencia de [**Lombok**](https://projectlombok.org/)para
 facilitar la tarea repetitiva de generación de Setters y Getters de las clases.  
 
   
@@ -123,10 +123,10 @@ solución a algunos requerimientos planteados.
 
 En particular, en esta entrega se solicita:  
 
-1. Modelado de clases con Mapeo (anotaciones JPA) de entidades para que las mismas
-sean persistidas mediante el ORM Hibernate.  
+1. *Modelado de clases con Mapeo (anotaciones JPA) de entidades para que las mismas
+sean persistidas mediante el ORM Hibernate*.  
 
-2. Repositorios/Servicios que den solución a los requerimientos planteados:  
+2. *Repositorios/Servicios que den solución a los requerimientos planteados*:  
 
     - Quién fue el técnico con más incidentes resueltos en los últimos N días.  
 
