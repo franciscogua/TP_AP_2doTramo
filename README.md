@@ -52,35 +52,35 @@ al cliente informándole que su incidente ya está solucionado.
   
 ### Otros requerimientos
   
-● El sistema debe permitir al área de RRHH emitir diariamente reportes con los
+- El sistema debe permitir al área de RRHH emitir diariamente reportes con los
 incidentes asignados a cada técnico y el estado de los mismos.  
 
-● El sistema debe permitir que el operador agregue “un colchón” de horas estimadas
+- El sistema debe permitir que el operador agregue “un colchón” de horas estimadas
 para la resolución del problema, si el mismo es considerado “complejo”.  
 
-● El sistema debe permitir el alta de incidentes que contengan un conjunto de
+- El sistema debe permitir el alta de incidentes que contengan un conjunto de
 problemas de un mismo servicio. Dichos problemas deben estar relacionados.  
 
-● El sistema debe dar la posibilidad de informar:  
+- El sistema debe dar la posibilidad de informar:  
 
-  ○ Quién fue el técnico con más incidentes resueltos en los últimos N días.  
+    - Quién fue el técnico con más incidentes resueltos en los últimos N días.  
 
-  ○ Quién fue el técnico con más incidentes resueltos de una determinada
+    - Quién fue el técnico con más incidentes resueltos de una determinada
   especialidad en los últimos N días.  
 
-  ○ Quién fue el técnico que más rápido resolvió los incidentes.  
+    - Quién fue el técnico que más rápido resolvió los incidentes.  
   
   
 ### Consideraciones
   
-● Cada tipo de problema particular puede ser solucionado por una o varias
+- Cada tipo de problema particular puede ser solucionado por una o varias
 especialidades.  
 
-● Cada operador puede definir, optativamente, su tiempo estimado de resolución por
+- Cada operador puede definir, optativamente, su tiempo estimado de resolución por
 defecto por tipo de problema; el cual tendrá que ser menor al tiempo máximo de
 resolución definido para el tipo de problema.  
 
-● Cada técnico puede definir su medio preferido de notificación, los cuales pueden ser:
+- Cada técnico puede definir su medio preferido de notificación, los cuales pueden ser:
 Email o WhatsApp. No están definidas las bibliotecas que se utilizarán para realizar
 estas notificaciones.  
   
