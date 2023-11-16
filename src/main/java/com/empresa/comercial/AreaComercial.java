@@ -9,4 +9,8 @@ import java.util.List;
 @Data
 public class AreaComercial {
     private List<Cliente> clientes = new ArrayList<>();
+
+    public void agregarCliente(Cliente cliente) {
+        clientes.add(cliente);
+    }
 }

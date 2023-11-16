@@ -7,25 +7,23 @@ import java.util.List;
 
 @Data
 public class MesaDeAyuda {
-    private List<Incidente> incidentesAsignados = new ArrayList<>();
+    private List<Incidente> incidentes = new ArrayList<>();
 
-    public void solicitarDatosCliente() {
-
+    public void registrarIncidente(Incidente incidente, Tecnico tecnico) {
+        incidentes.add(incidente);
+        asignarTecnico(incidente, tecnico);
     }
 
-    public void ingresarIncidente() {
-
+    private void asignarTecnico(Incidente incidente, Tecnico tecnico) {
+        tecnico.asignarIncidente(incidente);
     }
 
-    public void seleccionarTecnico() {
-
+    public Tecnico seleccionarTecnico(Especialidad especialidad) {
+        // Lógica para seleccionar un técnico basado en la especialidad
+        return null;
     }
 
-    public void enviarNotificacionTecnico() {
-
-    }
-
-    public void enviarNotificacionCliente() {
-
+    public void notificarCliente(Cliente cliente, String mensaje) {
+        cliente.recibirNotificacion(mensaje);
     }
 }

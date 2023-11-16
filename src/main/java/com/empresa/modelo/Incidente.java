@@ -7,14 +7,38 @@ import lombok.Data;
 @AllArgsConstructor
 public class Incidente {
     private String descripcion;
-    private String tipoProblema;
+    private String tipo;
     private String estado;
     private String fechaIngreso;
-    private String fechaPosibleResolucion;
-    private int colchonHorasEstimadas;
-
-    private Cliente cliente;
-    private Tecnico tecnico;
+    private int horasEstimadas;
     private Servicio servicio;
-    private Problema problema;
+    private Cliente cliente;
+    private Tecnico tecnicoAsignado;
+
+    public void asignarServicio(Servicio servicio) {
+        this.servicio = servicio;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    @Override
+    public String toString() {
+        String servicioAsignado = (servicio != null) ? servicio.toString() : "Sin servicio asignado";
+        return String.format(
+                "Incidente:%n" +
+                        "  . Descripción: '%s'%n" +
+                        "  . Tipo: '%s'%n" +
+                        "  . Estado: '%s'%n" +
+                        "  . Fecha de ingreso: '%s'%n" +
+                        "  . Horas estimadas: %d%n" +
+                        "  . Servicio: %s%n" +
+                        "  . Cliente: %s%n" +
+                        "  . Técnico asignado: %s%n",
+                descripcion, tipo, estado, fechaIngreso, horasEstimadas,
+                servicioAsignado, (cliente != null) ? cliente.getRazonSocial() : "Sin cliente asignado",
+                (tecnicoAsignado != null) ? tecnicoAsignado.getNombre() : "Sin técnico asignado"
+        );
+    }
 }
